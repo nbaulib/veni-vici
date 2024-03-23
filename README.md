@@ -4,7 +4,7 @@ Submitted by: **Nico Bautista-Libreros**
 
 This web app: **Learn about dogs**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
@@ -28,24 +28,17 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+<img src='https://i.imgur.com/hJhs3zB.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with [ezgif.com](ezgif.com)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Ban Lists
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [nbaulib]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
