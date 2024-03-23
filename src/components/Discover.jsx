@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-const YOUR_API_KEY = 'live_GrWEInWkYzXDfi8pbQAclA4bt4exmNiKruC9vcCi2IfCCZZXVA5llEShkuoBiofb';
+const API_KEY = import.meta.env.VITE_APP_API_KEY;
 
 const Discover = () => {
   const [ImageUrl, setImageUrl] = useState('');
@@ -8,7 +8,7 @@ const Discover = () => {
 
   const handleClick = async () => {
     try {
-      const response = await axios.get(`https://api.thedogapi.com/v1/images/search?api_key=${YOUR_API_KEY}`);
+      const response = await axios.get(`https://api.thedogapi.com/v1/images/search?api_key=${API_KEY}`);
       
       const breed = response.data[0].breeds.length > 0 ? response.data[0].breeds[0].name : '';
       if (!breed) {
